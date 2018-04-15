@@ -13,6 +13,9 @@
 		F3384AE6208234B100626FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3384AE5208234B100626FE1 /* Assets.xcassets */; };
 		F3384AE9208234B100626FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3384AE7208234B100626FE1 /* LaunchScreen.storyboard */; };
 		F3384AEC208234B100626FE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3384AEB208234B100626FE1 /* main.m */; };
+		F3CEB576208308BE006312E3 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CEB574208308BE006312E3 /* AViewController.m */; };
+		F3CEB577208308BE006312E3 /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3CEB575208308BE006312E3 /* AViewController.xib */; };
+		F3CEB57B20830BE6006312E3 /* JHUploadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CEB57A20830BE6006312E3 /* JHUploadImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		F3384AE8208234B100626FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3384AEA208234B100626FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3384AEB208234B100626FE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3CEB573208308BE006312E3 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		F3CEB574208308BE006312E3 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		F3CEB575208308BE006312E3 /* AViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
+		F3CEB57920830BE6006312E3 /* JHUploadImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHUploadImage.h; sourceTree = "<group>"; };
+		F3CEB57A20830BE6006312E3 /* JHUploadImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHUploadImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +66,14 @@
 		F3384ADB208234B100626FE1 /* iOS 逆向传值 */ = {
 			isa = PBXGroup;
 			children = (
+				F3CEB57820830BE6006312E3 /* JHUploadImage */,
 				F3384ADC208234B100626FE1 /* AppDelegate.h */,
 				F3384ADD208234B100626FE1 /* AppDelegate.m */,
 				F3384ADF208234B100626FE1 /* ViewController.h */,
 				F3384AE0208234B100626FE1 /* ViewController.m */,
+				F3CEB573208308BE006312E3 /* AViewController.h */,
+				F3CEB574208308BE006312E3 /* AViewController.m */,
+				F3CEB575208308BE006312E3 /* AViewController.xib */,
 				F3384AE2208234B100626FE1 /* Main.storyboard */,
 				F3384AE5208234B100626FE1 /* Assets.xcassets */,
 				F3384AE7208234B100626FE1 /* LaunchScreen.storyboard */,
@@ -69,6 +81,15 @@
 				F3384AEB208234B100626FE1 /* main.m */,
 			);
 			path = "iOS 逆向传值";
+			sourceTree = "<group>";
+		};
+		F3CEB57820830BE6006312E3 /* JHUploadImage */ = {
+			isa = PBXGroup;
+			children = (
+				F3CEB57920830BE6006312E3 /* JHUploadImage.h */,
+				F3CEB57A20830BE6006312E3 /* JHUploadImage.m */,
+			);
+			path = JHUploadImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3CEB577208308BE006312E3 /* AViewController.xib in Resources */,
 				F3384AE9208234B100626FE1 /* LaunchScreen.storyboard in Resources */,
 				F3384AE6208234B100626FE1 /* Assets.xcassets in Resources */,
 				F3384AE4208234B100626FE1 /* Main.storyboard in Resources */,
@@ -142,9 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3CEB576208308BE006312E3 /* AViewController.m in Sources */,
 				F3384AE1208234B100626FE1 /* ViewController.m in Sources */,
 				F3384AEC208234B100626FE1 /* main.m in Sources */,
 				F3384ADE208234B100626FE1 /* AppDelegate.m in Sources */,
+				F3CEB57B20830BE6006312E3 /* JHUploadImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
